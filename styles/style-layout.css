@@ -1,0 +1,129 @@
+/* === STYLE LAYOUT === */
+body
+{
+	background-color: lightgrey;
+}
+
+header
+{
+	background-color: black;
+	position: fixed;
+	height: 20%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	border-bottom: medium solid white;
+    z-index: 1000;
+}
+
+#head_logo
+{
+	border-radius: 100px;
+	position: fixed;
+	left: 5px;
+	top: 15px;
+}
+
+#head_title_01
+{
+	color: white;
+	position: fixed;
+	font-size: 40px;
+	left: 140px;
+}
+
+#head_title_02
+{
+	color: green;
+	position: fixed;
+	font-size: 40px;
+	top: 30px;
+	left: 200px;
+}
+
+.head_connect_text
+{
+	color: white;
+	position: fixed;
+	top: 15%;
+	right: 2px;
+}
+
+#head_disconnect_button
+{
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0%;
+	right: 0%;
+}
+
+nav
+{
+	background-color: black;
+	position: fixed;
+	top: 20%;
+	left: 0%;
+	bottom: 0%;
+	width: 20%;
+	border: medium solid white;
+	border-bottom-right-radius: 15px;
+    z-index: 1000;
+}
+
+.nav_title
+{
+	color: white;
+}
+
+.nav_text
+{
+	color: white;
+}
+
+#nav_connect
+{
+	border-bottom: dashed 1px white;
+}
+
+form .php_link
+{
+	border-color: solid white 1px;
+	background-color: black;
+	color: white;
+	height: 10%;
+	width: 100%;
+	margin-top: 7%;
+}
+
+form .php_link:hover
+{
+	border-color: solid white 1px;
+	background-color: lightgrey;
+	color: white;
+	height: 10%;
+	width: 100%;
+	margin-top: 7%;
+}
+
+article
+{
+	padding: 1%;
+    height: auto;
+    width: 98%;
+    z-index: 10;
+}
+
+.art_title
+{
+	color: black;
+}
+
+.content
+{
+    position: absolute;
+    left: 20.5%;
+    top: 20.3%;
+    width: 79.5%;
+    height: 79.7%;
+}

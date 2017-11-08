@@ -1,0 +1,3 @@
+<Files layout.php>
+deny from all
+</Files>
