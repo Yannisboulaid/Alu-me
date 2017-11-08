@@ -1,0 +1,19 @@
+Langage de manipulation de données (LMD)
+
+1) Définition
+
+Le LMD est un bloc de programmation SQL qui permet de mettre à jour les enregistrements d'une BDD (insert, update, delete)
+
+Le LMD est en interaction avec les autres blocs SQL (LID, LDD)
+
+2) Ajout des enregistrements
+
+	a) Ajout par défaut
+
+Syntaxe: INSERT INTO NOM_TABLE VALUES (value, value), (value, value);
+
+	b) Ajout par sélection
+
+syntaxe: INSERT INTO NOM_TABLE (CHAMP, CHAMP, CHAMP) VALUES (value, value, value);
+
+mysql> load data infile 'c:\\wamp64\\assistant.txt'' into table assistant fields terminated by ",";
